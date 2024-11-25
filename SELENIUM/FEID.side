@@ -1,0 +1,289 @@
+{
+  "id": "24e9e8f0-44a4-435c-a0d3-5d0858800d5f",
+  "version": "2.0",
+  "name": "FEID",
+  "url": "https://shop.feidofficial.com/",
+  "tests": [{
+    "id": "1885ee1f-c10f-430c-ad71-afd39a010346",
+    "name": "LOG-IN",
+    "commands": [{
+      "id": "93fc4ce8-64c2-491a-8ce5-e065e5a62774",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50958c97-a620-4a38-b526-3829b02f964f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b81d89b4-2fe0-4a7e-8e0b-e93a56069e91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3Aunderline > a > .w-full",
+      "targets": [
+        ["css=.hover\\3Aunderline > a > .w-full", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e965bfc-3730-4e13-8c97-196790cf0799",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=.my-sm-xs:nth-child(5) > #CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input/input", "xpath:idRelative"],
+        ["xpath=//required-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f7c920f-fd73-4557-915d-4d91caabf201",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=.my-sm-xs:nth-child(5) > #CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input/input", "xpath:idRelative"],
+        ["xpath=//required-input/input", "xpath:position"]
+      ],
+      "value": "alanagugo@gmail.com"
+    }, {
+      "id": "728aa154-9488-415b-8802-9db6fb083a88",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input[2]/password-toggle/input", "xpath:idRelative"],
+        ["xpath=//password-toggle/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8b6c564-cedd-4e71-a4f3-5835cb9375b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input[2]/password-toggle/input", "xpath:idRelative"],
+        ["xpath=//password-toggle/input", "xpath:position"]
+      ],
+      "value": "alan2002"
+    }, {
+      "id": "beb8a4ed-0ee1-46c1-b25d-32e1dc60d819",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return to Store",
+      "targets": [
+        ["linkText=Return to Store", "linkText"],
+        ["css=.gap-sm-sm > .flex", "css:finder"],
+        ["xpath=//form[@id='customer_login']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[25]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return to Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3349a108-0f78-4291-9961-e918805c1fb2",
+      "comment": "",
+      "command": "click",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae8402e6-16ba-4d3f-a8af-894e58c568c9",
+    "name": "Test-01",
+    "commands": [{
+      "id": "786acd48-6b1a-4190-9180-6e03ed13c512",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04ffff6d-67fe-4c8b-b6a0-e21857d4c9e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f09b8d81-6534-454f-a7d7-6490401cf3d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3Aunderline > a > .w-full",
+      "targets": [
+        ["css=.hover\\3Aunderline > a > .w-full", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c5a63f-661b-40c4-8713-7fa2b68ace2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=.my-sm-xs:nth-child(5) > #CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input/input", "xpath:idRelative"],
+        ["xpath=//required-input/input", "xpath:position"]
+      ],
+      "value": "alanagugo@gmail.com"
+    }, {
+      "id": "5262cb79-6fed-4958-ae70-ab71aab786e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input[2]/password-toggle/input", "xpath:idRelative"],
+        ["xpath=//password-toggle/input", "xpath:position"]
+      ],
+      "value": "alan2002"
+    }, {
+      "id": "f6d834ab-36c3-4bbe-aa38-03793a8b573f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-sm-sm:nth-child(8) > .mx-auto",
+      "targets": [
+        ["css=.my-sm-sm:nth-child(8) > .mx-auto", "css:finder"],
+        ["xpath=//input[@value=' Sign in']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1235d36-b276-41e0-a6f7-9552ffafba27",
+    "name": "Test-02",
+    "commands": [{
+      "id": "38323a5e-ae00-4c72-a439-41a86597b715",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79a05c8c-b1a6-4c9b-953b-3c79623f50d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc44ee5b-c751-45d4-a432-bf0e910595b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3Aunderline > a > .w-full > path",
+      "targets": [
+        ["css=.hover\\3Aunderline > a > .w-full > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4aebf2a-6714-4bbd-9cb1-420cee9128b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [],
+      "value": "feidsalomon@gmial.com"
+    }, {
+      "id": "4bba84d8-e63b-46c6-9915-51ad5a965ee1",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/required-input[2]/password-toggle/input", "xpath:idRelative"],
+        ["xpath=//password-toggle/input", "xpath:position"]
+      ],
+      "value": "noselededicanadie"
+    }, {
+      "id": "b8216241-33a8-4d39-989e-9158c61d8253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-sm-sm:nth-child(8) > .mx-auto",
+      "targets": [
+        ["css=.my-sm-sm:nth-child(8) > .mx-auto", "css:finder"],
+        ["xpath=//input[@value=' Sign in']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63f1c95b-e2bd-4a72-89a5-8bf183efb44d",
+    "name": "test-03",
+    "commands": [{
+      "id": "5241760a-6a9f-4fe3-8bfa-4140c47eb348",
+      "comment": "",
+      "command": "open",
+      "target": "https://shop.feidofficial.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6228313c-ee7f-4960-9d57-e2a55b64a6bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4122a439-afde-434e-bb87-071f3034173d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3Aunderline > a > .w-full > path",
+      "targets": [
+        ["css=.hover\\3Aunderline > a > .w-full > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "403e9577-6b3b-4b95-b0e2-3cbc52941b5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=RegisterForm-FirstNam",
+      "targets": [
+        ["id=RegisterForm-FirstName", "id"],
+        ["name=customer[first_name]", "name"],
+        ["css=#RegisterForm-FirstName", "css:finder"],
+        ["xpath=//input[@id='RegisterForm-FirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/required-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/required-input/input", "xpath:position"]
+      ],
+      "value": "Alan"
+    }]
+  }],
+  "suites": [{
+    "id": "9436de66-81df-47bd-9bc6-5808a598d2bd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1885ee1f-c10f-430c-ad71-afd39a010346"]
+  }],
+  "urls": ["https://shop.feidofficial.com/"],
+  "plugins": []
+}
